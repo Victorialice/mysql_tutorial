@@ -1,0 +1,2 @@
+ALTER TABLE mysql_test1.customers
+ADD COLUMN cust_city char(10) NOT NULL DEFAULT'wuhan' AFTER cust_sex;

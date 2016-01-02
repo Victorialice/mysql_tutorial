@@ -1,0 +1,2 @@
+ALTER TABLE mysql_test1.customers
+ALTER COLUMN cust_city SET DEFAULT'Beijing';

@@ -1,0 +1,4 @@
+CREATE TRIGGER mysql_test1.customers_update_trigger BEFORE UPDATE
+ON mysql_test1.customers FOR EACH ROW 
+SET NEW.cust_address=OLD.cust_contact;
+

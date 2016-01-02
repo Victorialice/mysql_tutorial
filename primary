@@ -1,0 +1,12 @@
+CREATE TABLE seller
+(
+ seller_id int NOT NULL AUTO_INCREMENT,
+ seller_name char(50) NOT NULL,
+ seller_address char(50) NULL,
+ seller_contact char(50) NULL,
+ product_type int(5) NULL,
+ sales int NULL,
+ PRIMARY KEY ( seller_id, product_type ),
+ INDEX index_seller(sales)
+ );
+  
