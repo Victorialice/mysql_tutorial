@@ -1,2 +1,16 @@
-CREATE TABLE mysql_test1.customers_copy
+CREATTABLE customers_copy
+CREATTABLE customers_copy
+CREATTABLE customers_copy
+CREATTABLE customers_copy
+CREATTABLE customers_copy
+CREATTABLE customers_copy
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
+LIKE mysql_test1.customers;
 LIKE mysql_test1.customers;
